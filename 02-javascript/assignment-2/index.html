@@ -2,10 +2,28 @@
 <head>
   <script type="text/javascript">
           function execute() {
+            var triangle = "#";
              // Add triangle exercise code here
-
+for (var item = 0; item <= 7; item++) {
+  console.log(triangle);
+  triangle = triangle + "#";
+}
              // end triangle code
-             
+  
+  for (var i = 1; i <=100; i++) 
+  {
+    if (i % 3 == 0 && i % 5 == 0) {
+      console.log("FizzBuzz")
+    }
+    else if (i % 3 == 0)  {
+      console.log ("Fizz");    }   
+    else if (i % 5 == 0) {
+      console.log ("Buzz");
+    }   
+    else {
+      console.log(i)
+    }
+  }
              // start fizzbuzz code
 
              // end fizzbuzz code
