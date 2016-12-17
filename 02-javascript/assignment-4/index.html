@@ -1,9 +1,23 @@
 <html>
 <head>
   <script type="text/javascript">
-          function execute() {
-            // Your code here.
+          var person = {
+            name: "Bob",
+            age: 50,
+            children: [
+              {name: "Timmy", age: "15"},
+              {name: "Sally", age: "9"}
+              ],
+            celebrateBirthday: {
+              function() this.celebrateBirthday = (age + 1)
+            }
           }
+person.celebrateBirthday;
+console.log(person);
+
+          
+          function execute() {
+                      }
     </script>
 </head>
 <body>
